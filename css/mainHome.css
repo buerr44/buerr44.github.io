@@ -1,0 +1,38 @@
+#main{width: 1500px;height: 2080px;margin-top: 110px;}
+#main>#banner{width: 1500px;height: 844px ;background-image: url(../img/banner.JPG);background-size: 100% 100%;border-radius: 10px;position: relative;box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3), 0 0 80px rgba(0, 0, 0, 0.1) inset;}
+#main>#banner>#introduce{width: 550px;height: 400px;background-color: rgba(0,0,0,0.3);position: relative;top:150px;border-radius: 10px;box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3), 0 0 80px rgba(0, 0, 0, 0.1) inset;}
+#main>#banner>#introduce>#hi{width: 130px;height: 100px;background-image:url(../img/hi1.png);background-size: 100% 100%;position: absolute ;top:20px;left: 60px;}
+#main>#banner>#introduce>#hi1{width: 200px;height: 80px;background-image:url(../img/hi2.png);background-size: 100% 100%;position: absolute ;top:20px;left: 150px;opacity: 0.9;}
+#main>#banner>#introduce>.top{width: 400px;height: 50px;border-bottom: solid 3px white;line-height: 60px;position: absolute;top:85px;left: 60px;font-size: 20px;}
+#main>#banner>#introduce>.top h2{margin-left: 100px;}
+#main>#banner>#introduce>.middle>table{width: 400px;height: 200px;position: absolute;top:150px;left: 60px;font-size: 22px;line-height: 35px;}
+#main>#banner>.right1{width: 160px;height: 160px;background-image: url(../img/banner1.png);background-size: 100% 100%;position: absolute;top:85px;left: 1340px;}
+#main>#banner>.right2{width: 200px;height: 150px;background-image: url(../img/banner2.png);background-size: 100% 100%;position: absolute;top:320px;left: 1300px;}
+#main>#banner>.right3{width: 200px;height: 160px;background-image: url(../img/banner3.png);background-size: 100% 100%;position: absolute;top:555px;left: 1300px;}
+#main>#banner>.right0{width: 180px;height: 844px;background-image: url(../img/banner4.png);background-size: 100% 100%;position: absolute;top:0px;left: 1320px;opacity: 0.7;}
+
+#main>#photo{width: 1500px;height: 1226px;margin-top: 10px;position: relative;}
+
+#main>#photo>#smile{width: 477px;height: 585px;transform: rotate(-15deg);position: absolute;top:50px;left:80px;}
+#main>#photo>#smile img{width: 430px;height: 430px;position: absolute;top:36px;left: 23px;}
+#main>#photo>#smile>.xiangkuang{width: 477px;height: 585px;background-image: url(../img/xiangkuang1.png);background-size: 100% 100%;position: absolute;}
+#main>#photo>#smile>.bottom{width: 430px;height: 100px;position: absolute;border-radius: 10px;top:474px;left: 23px;text-align: center;line-height: 100px;font-size: 50px;-webkit-text-stroke: 1px #555;}
+
+#main>#photo>#tv{width: 477px;height: 585px;transform: rotate(6deg);position:absolute;top:40px; left: 560px;}
+#main>#photo>#tv img{width: 430px;height: 430px;position: absolute;top:36px;left: 23px;}
+#main>#photo>#tv>.xiangkuang{width: 477px;height: 585px;background-image: url(../img/xiangkuang1.png);background-size: 100% 100%;position: absolute;}
+#main>#photo>#tv>.bottom{width: 430px;height: 100px;position: absolute;border-radius: 10px;top:474px;left: 23px;text-align: center;line-height: 100px;font-size: 50px;-webkit-text-stroke: 1px #555;}
+
+#main>#photo>#eat{width: 477px;height: 585px;transform: rotate(10deg);position: absolute;top:600px;left: 400px;}
+#main>#photo>#eat img{width: 430px;height: 430px;position: absolute;top:36px;left: 23px;}
+#main>#photo>#eat>.xiangkuang{width: 477px;height: 585px;background-image: url(../img/xiangkuang1.png);background-size: 100% 100%;position: absolute;}
+#main>#photo>#eat>.bottom{width: 430px;height: 100px;position: absolute;border-radius: 10px;top:474px;left: 23px;text-align: center;line-height: 100px;font-size: 50px;-webkit-text-stroke: 1px #555;}
+
+#main>#photo>#sleep{width: 477px;height: 585px;transform: rotate(16deg);position: absolute;top:290px;left: 970px;}
+#main>#photo>#sleep img{width: 430px;height: 430px;position: absolute;top:36px;left: 23px;}
+#main>#photo>#sleep>.xiangkuang{width: 477px;height: 585px;background-image: url(../img/xiangkuang1.png);background-size: 100% 100%;position: absolute;}
+#main>#photo>#sleep>.bottom{width: 430px;height: 100px;position: absolute;border-radius: 10px;top:474px;left: 23px;text-align: center;line-height: 100px;font-size: 50px;-webkit-text-stroke: 1px #555;}
+
+#main>#photo>.top{width: 280px;height: 250px;background-image: url(../img/photo4.png);background-size: 100% 100%;position: absolute;left: 1200px;top:30px;}
+#main>#photo>.bottom{width: 800px;height: 350px;background-image: url(../img/photo2.png);background-size: 100% 100%;position: absolute;left: 800px;top:850px;}
+#main>#photo>.left{width: 450px;height: 450px;background-image: url(../img/photo3.png);background-size: 100% 100%;position: absolute;left: 0px;top:700px;}

@@ -1,0 +1,23 @@
+#bottom{width: 1500px;height: 200px;background-color: rgba(0,0,0,0.4);border-radius: 10px;margin-top: 10px;box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3), 0 0 80px rgba(0, 0, 0, 0.1) inset;}
+#bottom>.left{width: 380px;height: 160px;float: left;margin:15px 0px 0px 20px;}
+#bottom>.left>.top{width: 380;height: 70px;line-height: 35px;}
+#bottom>.left>.bottom{width: 380;height: 70px;line-height: 35px;margin-top: 5px;}
+#bottom>.left li{list-style: none;float: left;margin-left: 60px;}
+#bottom>.left h3{margin-left: 60px;font-size: 24px;}
+#bottom>.left a{font-size: 22px;}
+#bottom>.left a:hover{font-size: 24px;}
+
+#bottom>.middle{width: 620px;height: 160px;float: left; ;margin-top: 15px;border-right:solid 3px white ;border-left:solid 3px white;position: relative;}
+#bottom>.middle>table{width: 510px;margin-left: 65px;line-height: 35px}
+#bottom>.middle>table th{font-size: 24px;text-align: left;height: 35px;}
+#bottom>.middle>table .tittle{font-size: 18px ;margin-left: 20px;}
+#bottom>.middle>#wx{width: 20px;height: 20px;background-image: url(https://cdn.maczd.com/img/2017/07/2610535148.png);background-size: 100% 100%;position: absolute;left: 65px;top:46px;}
+#bottom>.middle>#wb{width: 20px;height: 20px;background-image: url(https://maxcdn.icons8.com/Share/icon/Logos/weibo1600.png);background-size: 100% 100%;position: absolute;left: 235px;top:46px;}
+#bottom>.middle>#db{width: 20px;height: 20px;background-image: url(https://img3.doubanio.com/f/frodo/144e6fb7d96701944e7dbb1a9bad51bdb1debe29/pics/app/logo.png);background-size: 100% 100%;position: absolute;left: 405px;top:46px;}
+#bottom>.middle a:hover{font-size: 18px;}
+
+#bottom>.right{width: 380px;height: 200px;margin-left: 40px;float: left;margin-top: 15px;line-height: 25px;position: relative;}
+#bottom>.right>h2{height: 30px;}
+#bottom>.right>h3{margin-left:50px;height: 50px;line-height: 50px;}
+#bottom>.right>p{font-family: "华文行楷";font-weight: bold;}
+#bottom>.right>.pic{height: 40px;width: 40px;background-image: url(../img/IMG_2922.JPG);background-size: 100% 100%;border: solid 2px white; border-radius: 20px; position: absolute;left:0px;top:35px;}

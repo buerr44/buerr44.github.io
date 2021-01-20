@@ -1,0 +1,35 @@
+#main{width: 1500px;height: 2080px;margin-top: 110px;position: relative;}
+
+#main>.middle{width: 100px;height: 2080px;background-image: url(../img/foot.png);background-size: 100% 100%;position: absolute;top:0px;left: 700px;}
+#main>.middle h1{font-size: 50px;color: #555555;text-align: center;line-height: 150px;-webkit-text-stroke: 2px white;}
+#main>.middle>.a{width: 150px;height: 150px;background-image: url(../img/growpoint.png);background-size: 100% 100%;border-radius: 75px;box-shadow: 0 8px 10px rgba(0, 0, 0, 0.6), 0 0 80px rgba(0, 0, 0, 0.1) inset;position: absolute;left: -25px;top:0px;z-index: 2;}
+#main>.middle>.b{width: 150px;height: 150px;background-image: url(../img/growpoint.png);background-size: 100% 100%;border-radius: 75px;box-shadow: 0 8px 10px rgba(0, 0, 0, 0.6), 0 0 80px rgba(0, 0, 0, 0.1) inset;position: absolute;left: -25px;top:450px;z-index: 2;}
+#main>.middle>.c{width: 150px;height: 150px;background-image: url(../img/growpoint.png);background-size: 100% 100%;border-radius: 75px;box-shadow: 0 8px 10px rgba(0, 0, 0, 0.6), 0 0 80px rgba(0, 0, 0, 0.1) inset;position: absolute;left: -25px;top:900px;z-index: 2;}
+#main>.middle>.d{width: 150px;height: 150px;background-image: url(../img/growpoint.png);background-size: 100% 100%;border-radius: 75px;box-shadow: 0 8px 10px rgba(0, 0, 0, 0.6), 0 0 80px rgba(0, 0, 0, 0.1) inset;position: absolute;left: -25px;top:1350px;z-index: 2;}
+
+#main>.top{width: 700px;height: 360px;background-image: url(../img/topleft.png);background-size: 100% 100%;position: absolute;top:40px;left:10px;}
+.photoout{width: 100px;height: 100px;margin-left:2px;border:solid 2px yellow;border-radius: 10px;background-size: 100% 100%; transition-property:all ; transition-duration: 1s;box-shadow: 0 8px 10px rgba(0, 0, 0, 0.6), 0 0 80px rgba(0, 0, 0, 0.1) inset;}
+.photoin{width: 45px;height: 100px ;margin-left: 2px;border-radius: 5px;background-size: 200% 100%; transition-property:all;transition-duration: 1s;box-shadow: 0 8px 10px rgba(0, 0, 0, 0.6), 0 0 80px rgba(0, 0, 0, 0.1) inset; }
+#main .bottom{width: 590px;height: 590px;border: double 5px #555;position: relative;background-size: 100% 100%;top:10px;}
+#main>#my{width: 600px;height: 700px;position: absolute;left: 840px;top:20px;}
+#main>#my>.top{width: 680px;height: 100px;margin-left: -50px;background-image: url(../img/g-right.png);background-size: 100% 100%;}
+#main>#my>.top>h2{width: 400px;height: 80px; margin-left: 250px;line-height: 40px;-webkit-text-stroke: 1px #555;}
+
+#main>#bt{width: 600px;height: 700px;position: absolute;left: 60px;top:470px;}
+#main>#bt>.top{width: 680px;height: 100px;margin-left: -30px;background-image: url(../img/g-left.png);background-size: 100% 100%;}
+#main>#bt>.top>h2{width: 400px;height: 80px; margin-left: 40px;line-height: 40px;-webkit-text-stroke: 1px #555;}
+
+#main>#zs{width: 600px;height: 700px;position: absolute;left: 840px;top:920px;}
+#main>#zs>.top{width: 680px;height: 100px;margin-left: -50px;background-image: url(../img/g-right.png);background-size: 100% 100%;}
+#main>#zs>.top>h2{width: 400px;height: 80px; margin-left: 250px;line-height: 40px;-webkit-text-stroke: 1px #555;}
+
+#main>#n{width: 600px;height: 700px;position: absolute;left: 60px;top:1370px;}
+#main>#n>.top{width: 680px;height: 100px;margin-left: -30px;background-image: url(../img/g-left.png);background-size: 100% 100%;}
+#main>#n>.top>h2{width: 400px;height: 80px; margin-left: 40px;line-height: 40px;-webkit-text-stroke: 1px #555;}
+
+#manyue{width: 580px;height: 100px;position: absolute;top:485px;left:10px;}
+#baitian{width: 580px;height: 100px;position: absolute;top:485px;left:10px;}
+#zhousui{width: 580px;height: 100px;position: absolute;top:485px;left:10px;}
+#now{width: 580px;height: 100px;position: absolute;top:485px;left:10px;}
+#main>.down{width: 500px;height: 400px;background-image: url(../img/growdown.png);background-size: 100% 100%;position: absolute;top:1680px;left: 1000px;}
+#main>.down1{width: 280px;height: 230px;background-image: url(../img/growdown2.png);background-size: 100% 100%;position: absolute;top:1700px;left: 830px;}

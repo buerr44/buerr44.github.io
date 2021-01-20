@@ -1,0 +1,4 @@
+*{margin: 0px;padding: 0px;font-family: "华文琥珀";color: white;}
+a{text-decoration: none;color:white}
+a:hover{color: yellow;}
+#container{width:1500px ;height: 2400px;background-image: url(../img/bg1.png);background-size: 100% 100%; opacity:0.8;margin: auto;border: solid 1px white;border-radius: 10px;}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>阿离的小站-初见</title>
+		<link rel="stylesheet" type="text/css" href="css/bg.css" />
+		<link rel="stylesheet" type="text/css" href="css/top.css" />
+		<link rel="stylesheet" type="text/css" href="css/mainBorn.css" />
+		<link rel="stylesheet" type="text/css" href="css/bottom.css" />
+		<script type="text/javascript">
+			var d;
+			var k = 0;
+
+			function init() {
+				d = document.getElementById("jpimg");
+			}
+
+			function phshow() {
+				k -= 1;
+				if (k < -1530) {
+					k = 0;
+				}
+				d.style.left = k + "px";
+				setTimeout("phshow()", 20);
+			}
+
+			function phchange(e) {
+				var c = e.getAttribute("class");
+				var arr = e.parentNode.nextElementSibling.children;
+
+				for (var i = 0; i < arr.length; i++) {
+					if (arr[i].getAttribute("class") == c) {
+						arr[i].style.zIndex = "3";
+					} else {
+						arr[i].style.zIndex = "2";
+					}
+				}
+
+
+			}
+		</script>
+	</head>
+	<body onload="init(),phshow()">
+		<div id="container">
+			<div id="top">
+				<div class="left"></div>
+				<div class="middle">
+					<ul>
+						<li><a href="home.html">首页</a></li>
+						<li><a href="born.html">初见</a></li>
+						<li><a href="grow.html">成长</a></li>
+					</ul>
+				</div>
+				<div class="right">
+					<div class="right1"></div>
+					<div class="right2"></div>
+				</div>
+			</div>
+			<div id="main">
+				<div id="startimg"></div>
+				<div id="starttext">
+					<p>阿离的诞生?<br />
+						那得从阿离爸妈的相识说起了......</p>
+				</div>
+				<div id="left1"></div>
+				<div id="left2"></div>
+				<div id="right1"></div>
+				<div id="right2"></div>
+				<div id="time">
+					<div id="text2013">
+						<div class="text">
+							<h1>相识</h1>
+							<p>那一年，两个有趣的灵魂因为工作而结识；</p>
+							<p>他是普通的工程师，她是部门的德语翻译；</p>
+							<p>他来自浙江余姚，她来自湖北潜江；</p>
+							<p>仿佛命中注定，他们在茫茫人海中相遇。</p>
+						</div>
+						<div class="tag">
+							<div class="a" onclick="phchange(this)"></div>
+							<div class="b" onclick="phchange(this)"></div>
+							<div class="c" onclick="phchange(this)"></div>
+							<div class="d" onclick="phchange(this)"></div>
+						</div>
+						<div class="photo">
+							<img src="img/2013-4.JPG" class="d" />
+							<img src="img/2013-3.JPG" class="c" />
+							<img src="img/2013-2.JPG" class="b" />
+							<img src="img/2013-1.JPG" class="a" />
+						</div>
+					</div>
+					<div id="text2014">
+						<div class="text">
+							<h1>相恋</h1>
+							<p>那一年，他们彻底走进了彼此的生活；</p>
+							<p>他们一起上下班，一起出去旅游；</p>
+							<p>他们分享彼此的快乐，携手面对风雨；</p>
+							<p>他们在最美好的时光创造最美丽的回忆。</p>
+						</div>
+						<div class="tag">
+							<div class="b" onclick="phchange(this)"></div>
+							<div class="c" onclick="phchange(this)"></div>
+							<div class="d" onclick="phchange(this)"></div>
+							<div class="a" onclick="phchange(this)"></div>
+						</div>
+						<div class="photo">
+							<img src="img/2014-4.JPG" class="d" />
+							<img src="img/2014-3.JPG" class="c" />
+							<img src="img/2014-2.JPG" class="b" />
+							<img src="img/2014-1.JPG" class="a" />
+						</div>
+					</div>
+
+					<div id="text2016">
+						<div class="text">
+							<h1>结婚</h1>
+							<p>那一年，他们终于步入了婚姻的殿堂；</p>
+							<p>他在济州岛单膝下跪，说嫁给我好吗？</p>
+							<p>她哭了，梨花带雨；也笑了，笑靥如花；</p>
+							<p>执子之手，许下三生三世的诺言。</p>
+						</div>
+						<div class="tag">
+							<div class="a" onclick="phchange(this)"></div>
+							<div class="b" onclick="phchange(this)"></div>
+							<div class="c" onclick="phchange(this)"></div>
+							<div class="d" onclick="phchange(this)"></div>
+						</div>
+						<div class="photo">
+							<img src="img/2016-4.JPG" class="d" />
+							<img src="img/2016-3.JPG" class="c" />
+							<img src="img/2016-2.JPG" class="b" />
+							<img src="img/2016-1.JPG" class="a" />
+						</div>
+					</div>
+					<div id="text2019">
+						<div class="text">
+							<h1>初见阿离</h1>
+							<p>那一年，他们迎来了爱情的结晶；</p>
+							<p>她十月怀胎，他悉心照料；</p>
+							<p>当可爱的小阿离呱呱坠地那一刻；</p>
+							<p>他们终于找到了人生最后一块拼图。</p>
+						</div>
+						<div class="tag">
+							<div class="a" onclick="phchange(this)"></div>
+							<div class="b" onclick="phchange(this)"></div>
+							<div class="c" onclick="phchange(this)"></div>
+							<div class="d" onclick="phchange(this)"></div>
+						</div>
+						<div class="photo">
+							<img src="img/2019-4.JPG" class="d" />
+							<img src="img/2019-3.JPG" class="c" />
+							<img src="img/2019-2.JPG" class="b" />
+							<img src="img/2019-1.JPG" class="a" />
+						</div>
+					</div>
+					<div id="timeline"></div>
+					<div id="year2013">
+						<p>year of<br />
+							<font>2013</font>
+						</p>
+					</div>
+					<div id="year2014">
+						<p>year of<br />
+							<font>2014</font>
+						</p>
+					</div>
+					<div id="year2016">
+						<p>year of<br />
+							<font>2016</font>
+						</p>
+					</div>
+					<div id="year2019">
+						<p>year of<br />
+							<font>2019</font>
+						</p>
+					</div>
+				</div>
+				<div id="jiaopian">
+					<div id="jpshow">
+						<div id="jpimg">
+							<img src="img/born0.JPG" />
+							<img src="img/born1.JPG" />
+							<img src="img/born2.JPG" />
+							<img src="img/born3.JPG" />
+							<img src="img/born4.JPG" />
+							<img src="img/born5.JPG" />
+							<img src="img/born6.JPG" />
+							<img src="img/born7.JPG" />
+							<img src="img/born8.JPG" />
+							<img src="img/born0.JPG" />
+							<img src="img/born1.JPG" />
+							<img src="img/born2.JPG" />
+							<img src="img/born3.JPG" />
+							<img src="img/born4.JPG" />
+							<img src="img/born5.JPG" />
+							<img src="img/born6.JPG" />
+							<img src="img/born7.JPG" />
+							<img src="img/born8.JPG" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="bottom">
+				<div class="left">
+					<div class="top">
+						<h3>本站地图</h3>
+						<ul>
+							<li><a href="home.html">首页</a></li>
+							<li><a href="born.html">初见</a></li>
+							<li><a href="grow.html">成长</a></li>
+						</ul>
+					</div>
+					<div class="bottom">
+						<h3>友情链接</h3>
+						<ul>
+							<li><a href="http://www.baidu.com">百度</a></li>
+							<li><a href="http://www.taobao.com">淘宝</a></li>
+							<li><a href="http://www.jd.com">京东</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="middle">
+					<table border="0">
+						<tr>
+							<th colspan="3">联系我们</th>
+						</tr>
+						<tr>
+							<td>
+								<font class="tittle">微信:</font>
+							</td>
+							<td>
+								<font class="tittle">微博:</font>
+							</td>
+							<td>
+								<font class="tittle">豆瓣:</font>
+							</td>
+						</tr>
+						<tr>
+							<td width="170px">阿离爸爸：wndc44</td>
+							<td width="170px"><a href="https://weibo.com/1540470873/profile?topnav=1&wvr=6" target="_blank">莫离的不二的微博</a></td>
+							<td width="170px"><a href="https://www.douban.com/people/wndc44/" target="_blank">莫离の不二的豆瓣</a></td>
+
+						</tr>
+						<tr>
+							<td>阿离妈妈：yemoi_77</td>
+							<td><a href="https://weibo.com/475771584?from=myfollow_group&is_all=1" target="_blank">yemoi 的微博</a></td>
+							<td width="140px"><a href="https://www.douban.com/people/3048466/" target="_blank">yemoi_77的豆瓣 </a></td>
+						</tr>
+					</table>
+					<div id="wx"></div>
+					<div id="wb"></div>
+					<div id="db"></div>
+				</div>
+				<div class="right">
+					<h2>网站作者</h2>
+					<div class="pic"></div>
+					<h3>莫离的不二</h3>
+					<p>谨以此站献给可爱的阿离，爸爸想你了！<br />同时也献给最爱的媳妇，照顾阿离辛苦啦~</p>
+					<p align="right">-制作于数字化转型培训期间</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

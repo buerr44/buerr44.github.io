@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>阿离的小站-首页</title>
+		<link rel="stylesheet" type="text/css" href="css/bg.css" />
+		<link rel="stylesheet" type="text/css" href="css/top.css" />
+		<link rel="stylesheet" type="text/css" href="css/mainHome.css" />
+		<link rel="stylesheet" type="text/css" href="css/bottom.css" />
+		<script src="js/jq.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var arr = ["smile", "tv", "sleep", "eat"];
+			var brr = [1, 1, 1, 1];
+
+			function phshow() {
+				for (var i = 0; i < arr.length; i++) {
+					$("#" + arr[i] + "ph").children().last().show();
+					document.getElementById(arr[i] + "ph").children[1].setAttribute("src", "img/" + arr[i] + brr[i] + ".JPG");
+					if (brr[i] < 5) {
+						document.getElementById(arr[i] + "ph").children[0].setAttribute("src", "img/" + arr[i] + (brr[i] + 1) + ".JPG");
+					} else {
+						document.getElementById(arr[i] + "ph").children[0].setAttribute("src", "img/" + arr[i] + "1.JPG");
+					}
+					$("#" + arr[i] + "ph").children().last().fadeOut(4000);
+					brr[i]++;
+					if (brr[i] > 5) {
+						brr[i] = 1;
+					}
+				}
+				setTimeout("phshow()", 6000);
+			}
+		</script>
+	</head>
+	<body onload="phshow()">
+		<div id="container">
+			<div id="top">
+				<div class="left"></div>
+				<div class="middle">
+					<ul>
+						<li><a href="home.html">首页</a></li>
+						<li><a href="born.html">初见</a></li>
+						<li><a href="grow.html">成长</a></li>
+					</ul>
+				</div>
+				<div class="right">
+					<div class="right1"></div>
+					<div class="right2"></div>
+				</div>
+			</div>
+
+			<div id="main">
+				<div id="banner">
+					<div id="introduce">
+						<div id="hi"></div>
+						<div id="hi1"></div>
+						<div class="top">
+							<h2>欢迎来到我的小站</h2>
+						</div>
+						<div class="middle">
+							<table border="0">
+								<tr>
+									<td>姓&nbsp;&nbsp;&nbsp;&nbsp;名&nbsp:</td>
+									<td class="a">黄&nbsp;莫&nbsp;离</td>
+								</tr>
+								<tr>
+									<td>昵&nbsp;&nbsp;&nbsp;&nbsp;称&nbsp:</td>
+									<td class="a">阿&nbsp;离</td>
+								</tr>
+								<tr>
+									<td>德&nbsp;语&nbsp;名&nbsp:</td>
+									<td class="a">Lila</td>
+								</tr>
+								<tr>
+									<td>出&nbsp;&nbsp;&nbsp;&nbsp;生&nbsp:</td>
+									<td class="a">2019.02.20</td>
+								</tr>
+								<tr>
+									<td>性&nbsp;&nbsp;&nbsp;&nbsp;别&nbsp:</td>
+									<td class="a">可爱的小公主</td>
+								</tr>
+								<tr>
+									<td>爱&nbsp;&nbsp;&nbsp;&nbsp;好&nbsp:</td>
+									<td class="a">吃饭 &nbsp;睡觉&nbsp;荡秋千</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="right0"></div>
+					<div class="right1"></div>
+					<div class="right2"></div>
+					<div class="right3"></div>
+				</div>
+				<div id="photo">
+					<div id="eat">
+						<div id="eatph"><img /><img /></div>
+						<div class="xiangkuang"></div>
+						<div class="bottom">爱&nbsp;吃&nbsp;的&nbsp;我</div>
+					</div>
+					<div id="smile">
+						<div id="smileph"><img /><img /></div>
+						<div class="xiangkuang"></div>
+						<div class="bottom">爱&nbsp;笑&nbsp;的&nbsp;我</div>
+					</div>
+					<div id="tv">
+						<div id="tvph"><img /><img /></div>
+						<div class="xiangkuang"></div>
+						<div class="bottom">看&nbsp;电&nbsp;视&nbsp;的&nbsp;我</div>
+					</div>
+					<div id="sleep">
+						<div id="sleepph"><img /><img /></div>
+						<div class="xiangkuang"></div>
+						<div class="bottom">爱&nbsp;睡&nbsp;觉&nbsp;的&nbsp;我</div>
+					</div>
+					<div class="top"></div>
+					<div class="left"></div>
+					<div class="bottom"></div>
+				</div>
+				<div id="bottom">
+					<div class="left">
+						<div class="top">
+							<h3>本站地图</h3>
+							<ul>
+								<li><a href="home.html">首页</a></li>
+								<li><a href="born.html">初见</a></li>
+								<li><a href="grow.html">成长</a></li>
+							</ul>
+						</div>
+						<div class="bottom">
+							<h3>友情链接</h3>
+							<ul>
+								<li><a href="http://www.baidu.com">百度</a></li>
+								<li><a href="http://www.taobao.com">淘宝</a></li>
+								<li><a href="http://www.jd.com">京东</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="middle">
+						<table border="0">
+							<tr>
+								<th colspan="3">联系我们</th>
+							</tr>
+							<tr>
+								<td>
+									<font class="tittle">微信:</font>
+								</td>
+								<td>
+									<font class="tittle">微博:</font>
+								</td>
+								<td>
+									<font class="tittle">豆瓣:</font>
+								</td>
+							</tr>
+							<tr>
+								<td width="170px">阿离爸爸：wndc44</td>
+								<td width="170px"><a href="https://weibo.com/1540470873/profile?topnav=1&wvr=6" target="_blank">莫离的不二的微博</a></td>
+								<td width="170px"><a href="https://www.douban.com/people/wndc44/" target="_blank">莫离の不二的豆瓣</a></td>
+							</tr>
+							<tr>
+								<td>阿离妈妈：yemoi_77</td>
+								<td><a href="https://weibo.com/475771584?from=myfollow_group&is_all=1" target="_blank">yemoi 的微博</a></td>
+								<td width="140px"><a href="https://www.douban.com/people/3048466/" target="_blank">yemoi_77的豆瓣 </a></td>
+							</tr>
+						</table>
+						<div id="wx"></div>
+						<div id="wb"></div>
+						<div id="db"></div>
+					</div>
+					<div class="right">
+						<h2>网站作者</h2>
+						<div class="pic"></div>
+						<h3>莫离的不二</h3>
+						<p>谨以此站献给可爱的阿离，爸爸想你了！<br />同时也献给最爱的媳妇，照顾阿离辛苦啦~</p>
+						<p align="right">-制作于数字化转型培训期间</p>
+					</div>
+				</div>
+			</div>
+	</body>
+</html>
